@@ -30,7 +30,6 @@ public class BinSort {
             bins.get(last).enBin(last);
             bins.get(last).displayBin();
         }
-
         for(int i = 0; i < n; i++){
             while(!bins.get(i).isEmpty()){
                 bins.get(i).displayBin();

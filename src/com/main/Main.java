@@ -7,9 +7,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    //TODO connect BinSort class to Main
-
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> input = new ArrayList<>();
@@ -35,27 +32,5 @@ public class Main {
         ArrayList<Bin> bins = bsort.createBins(n);
         ArrayList<Integer> sortedInput = bsort.binSort(n, input, bins);
         System.out.println("Sorted input array: " + sortedInput);
-
-//        int[] test = {4,0,5,4,1,4,1};
-//        int n = test.length;
-//
-//        System.out.println("bins size before populating: " + bins.size());
-//        for (int i = 0; i < n; i++){
-//            bins.add(new Bin());
-//            //populate Bins with n bins
-//        }
-//        System.out.println("bins size after populating: " + bins.size());
-//
-//        for(int i = 0; i < bins.size(); i++){
-//            Bin bin = bins.get(i);
-//            bin.enBin(test[i]);
-//
-//        }
-//        for (Bin bin : bins) {
-//            bin.displayBin();
-//            int last = bin.deBin();
-//            System.out.println("Last: " + last);
-//            bin.displayBin();
-//        }
     }
 }
