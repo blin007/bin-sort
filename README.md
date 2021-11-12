@@ -11,11 +11,11 @@ We remove and append the elements from arr into the corresponding bin
 
 Bins: [ 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]    <--- index
 
-Arr1: | 0 | 1 | 2 | 3 | 4 |   | 6 | 7 | 8 | 9 |
+Arr1: | 0 | 1 | 2 | 3 | 4 | - | 6 | 7 | 8 | 9 |
 
-Arr2: |   | 1 | 2 | 3 |   |   |   | 7 |   | 9 |
+Arr2: | - | 1 | 2 | 3 | - | - | - | 7 | - | 9 |
 
-Arr3: |   |   |   | 3 |   |   |   |   |   |   |
+Arr3: | - | - | - | 3 | - | - | - | - | - | - |
 
 Then iterate through bins and remove each element from each bin and append it to arr
 
