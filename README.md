@@ -10,12 +10,12 @@ We create an array of bins Bins[0...9]:
 We remove and append the elements from arr into the corresponding bin
 
 Bins: [ 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ]    <--- index
-arr:  | 0 | 1 | 2 | 3 | 4 |   | 6 | 7 | 8 | 9 |
+
+Arr:  | 0 | 1 | 2 | 3 | 4 |   | 6 | 7 | 8 | 9 |
       |   | 1 | 2 | 3 |   |   |   | 7 |   | 9 |
       |   |   |   | 3 |   |   |   |   |   |   |
 
 Then iterate through bins and remove each element from each bin and append it to arr
 
 sorted arr: [0,1,1,2,2,3,3,3,4,6,7,7,8,9,9]
-
 
