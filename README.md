@@ -17,3 +17,5 @@ arr:  | 0 | 1 | 2 | 3 | 4 |   | 6 | 7 | 8 | 9 |
 Then iterate through bins and remove each element from each bin and append it to arr
 
 sorted arr: [0,1,1,2,2,3,3,3,4,6,7,7,8,9,9]
+
+
