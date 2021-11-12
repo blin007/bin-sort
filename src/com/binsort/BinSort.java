@@ -28,11 +28,11 @@ public class BinSort {
         while( !arr.isEmpty() ){
             int last = arr.remove(arr.size() - 1);
             bins.get(last).enBin(last);
-            bins.get(last).displayBin();
+            //bins.get(last).displayBin();
         }
         for(int i = 0; i < n; i++){
             while(!bins.get(i).isEmpty()){
-                bins.get(i).displayBin();
+                //bins.get(i).displayBin();
                 int a = bins.get(i).deBin();
                 arr.add(a);
             }
